@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  FinanceTab.swift
 //  BankApp
 //
 //  Created by Yael Javier Zamora Moreno on 23/01/24.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct FinanceTab: View {
     var body: some View {
-        OnboardingView()
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    ContentView()
+    FinanceTab()
 }

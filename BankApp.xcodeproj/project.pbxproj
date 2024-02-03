@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E08C5D32B6091F50071C932 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E08C5D22B6091F50071C932 /* SignUpView.swift */; };
+		7E08C5D52B6096170071C932 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E08C5D42B6096170071C932 /* HomeView.swift */; };
+		7E08C5D82B6096B60071C932 /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E08C5D72B6096B60071C932 /* HomeTab.swift */; };
+		7E08C5DA2B6096BF0071C932 /* FinanceTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E08C5D92B6096BF0071C932 /* FinanceTab.swift */; };
+		7E08C5DC2B6096D50071C932 /* CardsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E08C5DB2B6096D50071C932 /* CardsTab.swift */; };
+		7E08C5DE2B6096E30071C932 /* ProfileTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E08C5DD2B6096E30071C932 /* ProfileTab.swift */; };
+		7EA3AE3C2B673DEF00D48277 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3AE3B2B673DEF00D48277 /* Card.swift */; };
 		7EDE32EE2B60369100600094 /* BankAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDE32ED2B60369100600094 /* BankAppApp.swift */; };
 		7EDE32F02B60369100600094 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDE32EF2B60369100600094 /* ContentView.swift */; };
 		7EDE32F22B60369400600094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDE32F12B60369400600094 /* Assets.xcassets */; };
 		7EDE32F52B60369400600094 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDE32F42B60369400600094 /* Preview Assets.xcassets */; };
+		7EDE32FD2B60377400600094 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDE32FC2B60377400600094 /* OnboardingView.swift */; };
+		7EDE32FF2B60400000600094 /* SelectLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDE32FE2B60400000600094 /* SelectLoginView.swift */; };
+		7EDE33012B6043CB00600094 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDE33002B6043CB00600094 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E08C5D22B6091F50071C932 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		7E08C5D42B6096170071C932 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7E08C5D72B6096B60071C932 /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
+		7E08C5D92B6096BF0071C932 /* FinanceTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceTab.swift; sourceTree = "<group>"; };
+		7E08C5DB2B6096D50071C932 /* CardsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsTab.swift; sourceTree = "<group>"; };
+		7E08C5DD2B6096E30071C932 /* ProfileTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTab.swift; sourceTree = "<group>"; };
+		7EA3AE3B2B673DEF00D48277 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		7EDE32EA2B60369100600094 /* BankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDE32ED2B60369100600094 /* BankAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAppApp.swift; sourceTree = "<group>"; };
 		7EDE32EF2B60369100600094 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7EDE32F12B60369400600094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EDE32F42B60369400600094 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7EDE32FC2B60377400600094 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		7EDE32FE2B60400000600094 /* SelectLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLoginView.swift; sourceTree = "<group>"; };
+		7EDE33002B6043CB00600094 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +52,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E08C5D62B6096A30071C932 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				7E08C5D72B6096B60071C932 /* HomeTab.swift */,
+				7E08C5D92B6096BF0071C932 /* FinanceTab.swift */,
+				7E08C5DB2B6096D50071C932 /* CardsTab.swift */,
+				7E08C5DD2B6096E30071C932 /* ProfileTab.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		7EA3AE3A2B673DE300D48277 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				7EA3AE3B2B673DEF00D48277 /* Card.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
 		7EDE32E12B60369100600094 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +90,8 @@
 		7EDE32EC2B60369100600094 /* BankApp */ = {
 			isa = PBXGroup;
 			children = (
+				7EA3AE3A2B673DE300D48277 /* Widgets */,
+				7EDE32FB2B60376200600094 /* Views */,
 				7EDE32ED2B60369100600094 /* BankAppApp.swift */,
 				7EDE32EF2B60369100600094 /* ContentView.swift */,
 				7EDE32F12B60369400600094 /* Assets.xcassets */,
@@ -65,6 +106,19 @@
 				7EDE32F42B60369400600094 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7EDE32FB2B60376200600094 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7E08C5D62B6096A30071C932 /* Tabs */,
+				7EDE32FC2B60377400600094 /* OnboardingView.swift */,
+				7EDE32FE2B60400000600094 /* SelectLoginView.swift */,
+				7EDE33002B6043CB00600094 /* LoginView.swift */,
+				7E08C5D22B6091F50071C932 /* SignUpView.swift */,
+				7E08C5D42B6096170071C932 /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +191,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E08C5DA2B6096BF0071C932 /* FinanceTab.swift in Sources */,
+				7E08C5D82B6096B60071C932 /* HomeTab.swift in Sources */,
+				7EDE32FF2B60400000600094 /* SelectLoginView.swift in Sources */,
+				7E08C5D52B6096170071C932 /* HomeView.swift in Sources */,
+				7EDE32FD2B60377400600094 /* OnboardingView.swift in Sources */,
 				7EDE32F02B60369100600094 /* ContentView.swift in Sources */,
+				7EDE33012B6043CB00600094 /* LoginView.swift in Sources */,
+				7EA3AE3C2B673DEF00D48277 /* Card.swift in Sources */,
+				7E08C5DE2B6096E30071C932 /* ProfileTab.swift in Sources */,
+				7E08C5DC2B6096D50071C932 /* CardsTab.swift in Sources */,
+				7E08C5D32B6091F50071C932 /* SignUpView.swift in Sources */,
 				7EDE32EE2B60369100600094 /* BankAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
