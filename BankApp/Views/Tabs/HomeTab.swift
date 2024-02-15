@@ -53,7 +53,7 @@ struct HomeTab: View {
                     HStack {
                         ForEach(0..<iconos.count) { item in
                             VStack {
-                                Button {
+                                NavigationLink {
                                     //
                                 } label: {
                                     Image(systemName: iconos[item])
