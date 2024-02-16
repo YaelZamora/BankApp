@@ -44,7 +44,7 @@ struct SendBankView: View {
                         Divider().frame(height: 1).overlay(.gray)
                         
                         NavigationLink {
-                            //
+                            TransferAmountView()
                         } label: {
                             Text("Next").frame(width: 300, height: 60)
                                 .background(.blue)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E060F512B7FC29C00E02429 /* TransferAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E060F502B7FC29C00E02429 /* TransferAmountView.swift */; };
 		7E08C5D32B6091F50071C932 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E08C5D22B6091F50071C932 /* SignUpView.swift */; };
 		7E08C5D52B6096170071C932 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E08C5D42B6096170071C932 /* HomeView.swift */; };
 		7E08C5D82B6096B60071C932 /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E08C5D72B6096B60071C932 /* HomeTab.swift */; };
@@ -17,6 +18,8 @@
 		7E0B00852B7E7E33006459D2 /* TransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B00842B7E7E33006459D2 /* TransferView.swift */; };
 		7E0B00872B7E8A4B006459D2 /* SendBankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B00862B7E8A4B006459D2 /* SendBankView.swift */; };
 		7E0B00892B7E9039006459D2 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B00882B7E9039006459D2 /* SheetView.swift */; };
+		7E5C90F72B7FCCA0005E6274 /* ConfirmDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C90F62B7FCCA0005E6274 /* ConfirmDetailsView.swift */; };
+		7E5C90F92B7FD46E005E6274 /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C90F82B7FD46E005E6274 /* CodeView.swift */; };
 		7EA3AE3C2B673DEF00D48277 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3AE3B2B673DEF00D48277 /* Card.swift */; };
 		7EDE32EE2B60369100600094 /* BankAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDE32ED2B60369100600094 /* BankAppApp.swift */; };
 		7EDE32F02B60369100600094 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDE32EF2B60369100600094 /* ContentView.swift */; };
@@ -28,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E060F502B7FC29C00E02429 /* TransferAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferAmountView.swift; sourceTree = "<group>"; };
 		7E08C5D22B6091F50071C932 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		7E08C5D42B6096170071C932 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7E08C5D72B6096B60071C932 /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
@@ -38,6 +42,8 @@
 		7E0B00842B7E7E33006459D2 /* TransferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferView.swift; sourceTree = "<group>"; };
 		7E0B00862B7E8A4B006459D2 /* SendBankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendBankView.swift; sourceTree = "<group>"; };
 		7E0B00882B7E9039006459D2 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		7E5C90F62B7FCCA0005E6274 /* ConfirmDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmDetailsView.swift; sourceTree = "<group>"; };
+		7E5C90F82B7FD46E005E6274 /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
 		7EA3AE3B2B673DEF00D48277 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		7EDE32EA2B60369100600094 /* BankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDE32ED2B60369100600094 /* BankAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAppApp.swift; sourceTree = "<group>"; };
@@ -129,6 +135,9 @@
 				7E0B00822B7E6D0E006459D2 /* AddNewCardView.swift */,
 				7E0B00842B7E7E33006459D2 /* TransferView.swift */,
 				7E0B00862B7E8A4B006459D2 /* SendBankView.swift */,
+				7E060F502B7FC29C00E02429 /* TransferAmountView.swift */,
+				7E5C90F62B7FCCA0005E6274 /* ConfirmDetailsView.swift */,
+				7E5C90F82B7FD46E005E6274 /* CodeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -204,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E08C5DA2B6096BF0071C932 /* FinanceTab.swift in Sources */,
+				7E060F512B7FC29C00E02429 /* TransferAmountView.swift in Sources */,
 				7E08C5D82B6096B60071C932 /* HomeTab.swift in Sources */,
 				7EDE32FF2B60400000600094 /* SelectLoginView.swift in Sources */,
 				7E08C5D52B6096170071C932 /* HomeView.swift in Sources */,
@@ -214,6 +224,8 @@
 				7E08C5DE2B6096E30071C932 /* ProfileTab.swift in Sources */,
 				7E08C5DC2B6096D50071C932 /* CardsTab.swift in Sources */,
 				7E0B00832B7E6D0E006459D2 /* AddNewCardView.swift in Sources */,
+				7E5C90F72B7FCCA0005E6274 /* ConfirmDetailsView.swift in Sources */,
+				7E5C90F92B7FD46E005E6274 /* CodeView.swift in Sources */,
 				7E08C5D32B6091F50071C932 /* SignUpView.swift in Sources */,
 				7EDE32EE2B60369100600094 /* BankAppApp.swift in Sources */,
 				7E0B00852B7E7E33006459D2 /* TransferView.swift in Sources */,
@@ -360,6 +372,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -389,6 +402,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

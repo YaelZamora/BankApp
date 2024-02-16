@@ -54,7 +54,7 @@ struct HomeTab: View {
                         ForEach(0..<iconos.count) { item in
                             VStack {
                                 NavigationLink {
-                                    //
+                                    TransferView()
                                 } label: {
                                     Image(systemName: iconos[item])
                                 }

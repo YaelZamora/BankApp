@@ -16,7 +16,7 @@ struct TransferView: View {
                     Text("Chose a way to transfer money")
                     
                     NavigationLink {
-                        //
+                        SendBankView()
                     } label: {
                         HStack {
                             Image(systemName: "arrow.counterclockwise")
