@@ -28,6 +28,7 @@
 		7EDE32FD2B60377400600094 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDE32FC2B60377400600094 /* OnboardingView.swift */; };
 		7EDE32FF2B60400000600094 /* SelectLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDE32FE2B60400000600094 /* SelectLoginView.swift */; };
 		7EDE33012B6043CB00600094 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDE33002B6043CB00600094 /* LoginView.swift */; };
+		7EDF8FBC2B866A6700370122 /* ButtonAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF8FBB2B866A6700370122 /* ButtonAccount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		7EDE32FC2B60377400600094 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		7EDE32FE2B60400000600094 /* SelectLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLoginView.swift; sourceTree = "<group>"; };
 		7EDE33002B6043CB00600094 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7EDF8FBB2B866A6700370122 /* ButtonAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				7EA3AE3B2B673DEF00D48277 /* Card.swift */,
 				7E0B00882B7E9039006459D2 /* SheetView.swift */,
+				7EDF8FBB2B866A6700370122 /* ButtonAccount.swift */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				7E08C5DA2B6096BF0071C932 /* FinanceTab.swift in Sources */,
 				7E060F512B7FC29C00E02429 /* TransferAmountView.swift in Sources */,
 				7E08C5D82B6096B60071C932 /* HomeTab.swift in Sources */,
+				7EDF8FBC2B866A6700370122 /* ButtonAccount.swift in Sources */,
 				7EDE32FF2B60400000600094 /* SelectLoginView.swift in Sources */,
 				7E08C5D52B6096170071C932 /* HomeView.swift in Sources */,
 				7EDE32FD2B60377400600094 /* OnboardingView.swift in Sources */,
